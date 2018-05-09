@@ -31,7 +31,7 @@ class Outside extends Component {
             style={{
               height: '100%',
               display:'inline-block',
-            }}ref={(ref) => this.setWrapperElement(ref)}>
+            }} ref={(ref) => this.setWrapperElement(ref)}>
                 {children}
             </div>
         )
