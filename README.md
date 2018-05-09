@@ -1,4 +1,4 @@
-# react-to-outside
+# react to outside
 
 Simple React Component to listen to events outside of element.
 
@@ -14,7 +14,7 @@ Example:
 import Outside from 'react-to-outside';
 
 const ExampleComponent = (props) => {
-    const clickOutside = () => {
+    const clickOutside = (event) => {
         alert('outside click');
     }
 
@@ -28,4 +28,6 @@ const ExampleComponent = (props) => {
         </Outside>
     )
 }
+
+export default ExampleComponent
 ```
