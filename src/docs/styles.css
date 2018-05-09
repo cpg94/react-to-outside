@@ -1,0 +1,14 @@
+body {
+  background: #eee;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#container {
+    display: flex;
+    height: 400px; 
+    width: 400px;
+    border-style: dotted; 
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer
+}
