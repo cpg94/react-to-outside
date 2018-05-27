@@ -15,8 +15,6 @@ class Outside extends Component {
     clickListener = (event) => {
         if(this.wrapper && !this.wrapper.contains(event.target) && this.props.onClickOutside){
             this.props.onClickOutside(event);
-        } else if (this.wrapper && this.wrapper.contains(event.target) && this.props.onClickInside){
-            this.props.onClickInside(event);
         }
     }
 
@@ -39,7 +37,6 @@ class Outside extends Component {
 }
 
 Outside.propTypes = {
-    onClickOutside: func,
     onClickOutside: func,
     children: element.isRequired,
 }
