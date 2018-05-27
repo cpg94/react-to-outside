@@ -4,8 +4,6 @@ Simple React Component to listen to events outside of element.
 
 Add the `onClickOutside` prop to the `Outside` component.
 
-A `onClickInside` prop is also available to use.
-
 ```npm/yarn install/add react-to-outside```;
 
 Example: 
